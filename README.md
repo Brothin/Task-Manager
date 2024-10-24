@@ -12,11 +12,11 @@ The Todo Management Application is a full-stack project developed using **Node.j
 
 ### Technology Stack
 
-Backend - Node Js, Express Js, Mongoose, Jwt.
+**Backend** - Node Js, Express Js, Mongoose, Jwt.
 
-Database - Mongodb.
+**Database** - Mongodb.
 
-Fronted - React Js, React Router Dom, React Hook Form, Tailwind Css.
+**Fronted** - React Js, React Router Dom, React Hook Form, Tailwind Css.
 
 ### **Backend Overview**
 
