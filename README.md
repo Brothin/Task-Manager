@@ -10,6 +10,14 @@ The Todo Management Application is a full-stack project developed using **Node.j
 
 ---
 
+### Technology Stack
+
+Backend - Node Js, Express Js, Mongoose, Jwt.
+
+Database - Mongodb.
+
+Fronted - React Js, React Router Dom, React Hook Form, Tailwind Css.
+
 ### **Backend Overview**
 
 The backend is built using **Node.js** with **Express.js** and **MongoDB** for data storage. The core functionalities are divided into different controllers, models, and routes for user authentication, project management, todo management, and gist export.
@@ -308,4 +316,68 @@ The app integrates the **GitHub API** to export project summaries as a secret gi
       ProjectDetail.js
   /context
     AuthContext.js
+```
+
+### Getting Started
+
+#### Clone the repository
+
+```
+git clone https://github.com/Brothin/Task-Manager.git
+```
+
+```
+cd Task-Manager
+```
+
+#### You need
+
+• Node
+
+• MongoDB or Mongo Atlas
+
+• NPM
+
+#### Create your MongoDB account and database/cluster
+
+• Create your own MongoDB account by visiting the MongoDB website and signing up for a new account.
+
+• Create a new database or cluster by following the instructions provided in the MongoDB documentation. Remember to note down the "Connect to your application URI" for the database, as you will need it later. Also, make sure to change with your own password.
+
+• Add your current IP address to the MongoDB database's IP whitelist to allow connections (this is needed whenever your ip changes).
+
+#### Create .env file
+
+Create a .env file in the frontend folder to store your credentials. This file will store environment variables for the frontend to run.
+
+```
+REACT_APP_API_URL=""
+```
+
+Create a .env file in the backend folder to store your credentials. This file will store environment variables for the backend to run.
+
+```
+PORT=5000
+MONGO_URI=""
+JWT_SECRET="supersecretjwt"
+GITHUB_TOKEN=""
+```
+
+#### Installation
+
+To install and run this project -
+Install dependencies using npm in frontend folder and run client side of application.
+
+```
+cd frontend
+npm install
+npm start
+```
+
+Install dependencies using npm in backend folder and run server side of application.
+
+```
+cd backend
+npm install
+npm start
 ```
