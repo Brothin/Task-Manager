@@ -309,5 +309,3 @@ The app integrates the **GitHub API** to export project summaries as a secret gi
   /context
     AuthContext.js
 ```
-
-This detailed breakdown covers both the backend and frontend of the application, describing the main features, endpoints, and functionalities. Let me know if you'd like any specific part of the project further elaborated!
